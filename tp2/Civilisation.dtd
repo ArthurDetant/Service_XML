@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT civilisations (civilisation*)>
+<!ELEMENT civilisation (Nom, TreeTech, Unites, Batiments)>
+<!ELEMENT TreeTech (Tech*)>
+<!ELEMENT Unites (Unite*)>
+<!ELEMENT Unite (Cout, Batiment_Necessaire)>
+<!ELEMENT Batiments (Batiment*)>
+<!ELEMENT Batiment (Cout_bat, Age)>
+
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Tech (#PCDATA)>
+<!ELEMENT Cout (#PCDATA)>
+<!ELEMENT Batiment_Necessaire (#PCDATA)>
+<!ELEMENT Cout_bat (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+
+<!ATTLIST civilisation Spécialisation CDATA #REQUIRED>
+<!ATTLIST Unite Nom CDATA #REQUIRED>
+<!ATTLIST Cout Nourriture CDATA #REQUIRED>
+<!ATTLIST Cout Bois CDATA #REQUIRED>
+<!ATTLIST Cout Pierre CDATA #REQUIRED>
+<!ATTLIST Cout Or CDATA #REQUIRED>
+<!ATTLIST Batiment Nom CDATA #REQUIRED>
+<!ATTLIST Cout_bat Nourriture CDATA #REQUIRED>
+<!ATTLIST Cout_bat Bois CDATA #REQUIRED>
+<!ATTLIST Cout_bat Pierre CDATA #REQUIRED>
+<!ATTLIST Cout_bat Or CDATA #REQUIRED>

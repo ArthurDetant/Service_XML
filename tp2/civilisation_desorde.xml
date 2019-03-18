@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<civilisation Spécialisation="TECH">
+		<Nom>Byzantin</Nom>
+		<Unites>
+			<Unite Nom="Paysan">
+					<Cout  Nourriture="50" Bois="0" Pierre="0" Or="0"/>
+					<Batiment_Necessaire>Forum</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Milicien">
+					<Cout  Nourriture="60" Bois="0" Pierre="0" Or="20"/>
+					<Batiment_Necessaire>Caserne</Batiment_Necessaire>
+			</Unite>
+			<Unite Nom="Cataphracte">
+					<Cout  Nourriture="55" Bois="0" Pierre="0" Or="60"/>
+					<Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Archer">
+					<Cout  Nourriture="0" Bois="25" Pierre="0" Or="45"/>
+					<Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+			</Unite>
+		</Unites>
+		<Batiments>
+			<Batiment Nom="Camp de bucheron">
+				<Cout Nourriture="" Bois="175" Pierre="" Or=""/>
+				<age>Sombre</age>
+				</Batiment>
+			<Batiment Nom="Habitation">
+				<Cout Nourriture="" Bois="" Pierre="" Or=""/>
+				<age>Sombre</age>
+			</Batiment>
+			<Batiment Nom="Chateau">
+				<Cout Nourriture="" Bois="" Pierre="" Or=""/>
+				<age>Chateau</age>
+			</Batiment>
+			<Batiment Nom="Marche">
+				<Cout Nourriture="" Bois="" Pierre="" Or=""/>
+				<age>Feodal</age>
+			</Batiment>
+	</Batiments>
+		<TreeTech>
+			<Tech>Métier à tisser</Tech>
+			<Tech>Travail du fer</Tech>
+			<Tech>Balistique</Tech>
+			<Tech>Tactique parthes</Tech>
+		</TreeTech>
+
+	</civilisation>

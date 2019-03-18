@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE civilisations SYSTEM "Civilisation.dtd">
+<civilisations>
+<civilisation Spécialisation="militaire">
+	<Nom>Franc</Nom>
+	<TreeTech>
+			<Tech>Métier à tisser</Tech>
+			<Tech>Travail du fer</Tech>
+			<Tech>Rotation des cultures</Tech>
+	</TreeTech>
+	<Unites>
+			<Unite Nom="Paysan">
+					<Cout  Nourriture="50" Bois="0" Pierre="0" Or="0"/>
+					<Batiment_Necessaire>Forum</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Milicien">
+					<Cout  Nourriture="60" Bois="0" Pierre="0" Or="20"/>
+					<Batiment_Necessaire>Caserne</Batiment_Necessaire>
+			</Unite>
+			<Unite Nom="Chevalier">
+					<Cout  Nourriture="60" Bois="0" Pierre="0" Or="75"/>
+					<Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Archer">
+					<Cout  Nourriture="0" Bois="25" Pierre="0" Or="45"/>
+					<Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+			</Unite>
+
+
+	</Unites>
+	<Batiments>
+			<Batiment Nom="Camp de bucheron">
+				<Cout_bat Nourriture="" Bois="175" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+				</Batiment>
+			<Batiment Nom="Habitation">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+			</Batiment>
+			<Batiment Nom="Chateau">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Chateau</Age>
+			</Batiment>
+			<Batiment Nom="Marche">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Feodal</Age>
+			</Batiment>
+		</Batiments>
+	</civilisation>
+	
+	<civilisation Spécialisation="economique">
+		<Nom>Perse</Nom>
+		<TreeTech>
+			<Tech>Métier à tisser</Tech>
+			<Tech>Travail du fer</Tech>
+			<Tech>Zélote</Tech>
+			<Tech>Tactique parthes</Tech>
+		</TreeTech>
+		<Unites>
+			<Unite Nom="Paysan">
+					<Cout  Nourriture="50" Bois="0" Pierre="0" Or="0"/>
+					<Batiment_Necessaire>Forum</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Milicien">
+					<Cout  Nourriture="60" Bois="0" Pierre="0" Or="20"/>
+					<Batiment_Necessaire>Caserne</Batiment_Necessaire>
+			</Unite>
+			<Unite Nom="Chameau">
+					<Cout  Nourriture="55" Bois="0" Pierre="0" Or="60"/>
+					<Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Archer">
+					<Cout  Nourriture="0" Bois="25" Pierre="0" Or="45"/>
+					<Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+			</Unite>
+		</Unites>
+		<Batiments>
+			<Batiment Nom="Camp de bucheron">
+				<Cout_bat Nourriture="" Bois="175" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+				</Batiment>
+			<Batiment Nom="Habitation">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+			</Batiment>
+			<Batiment Nom="Chateau">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Chateau</Age>
+			</Batiment>
+			<Batiment Nom="Marche">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Feodal</Age>
+			</Batiment>
+		</Batiments>
+	</civilisation>
+	
+	<civilisation Spécialisation="TECH">
+		<Nom>Byzantin</Nom>
+		<TreeTech>
+			<Tech>Métier à tisser</Tech>
+			<Tech>Travail du fer</Tech>
+			<Tech>Balistique</Tech>
+			<Tech>Tactique parthes</Tech>
+		</TreeTech>
+		<Unites>
+			<Unite Nom="Paysan">
+					<Cout  Nourriture="50" Bois="0" Pierre="0" Or="0"/>
+					<Batiment_Necessaire>Forum</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Milicien">
+					<Cout  Nourriture="60" Bois="0" Pierre="0" Or="20"/>
+					<Batiment_Necessaire>Caserne</Batiment_Necessaire>
+			</Unite>
+			<Unite Nom="Cataphracte">
+					<Cout  Nourriture="55" Bois="0" Pierre="0" Or="60"/>
+					<Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+					</Unite>
+			<Unite Nom="Archer">
+					<Cout  Nourriture="0" Bois="25" Pierre="0" Or="45"/>
+					<Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+			</Unite>
+		</Unites>
+		<Batiments>
+			<Batiment Nom="Camp de bucheron">
+				<Cout_bat Nourriture="" Bois="175" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+				</Batiment>
+			<Batiment Nom="Habitation">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Sombre</Age>
+			</Batiment>
+			<Batiment Nom="Chateau">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Chateau</Age>
+			</Batiment>
+			<Batiment Nom="Marche">
+				<Cout_bat Nourriture="" Bois="" Pierre="" Or=""/>
+				<Age>Feodal</Age>
+			</Batiment>
+	</Batiments>
+	</civilisation>
+</civilisations>

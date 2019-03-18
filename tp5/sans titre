@@ -1,0 +1,7 @@
+
+import lxml.etree as etree
+dom = etree.parse("fichier.xml") 
+xslt_tree = etree.parse("fichier.xsl")
+xslt = etree.XSLT(xsltree)
+
+tree = xslt(dom)

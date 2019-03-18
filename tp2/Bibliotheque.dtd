@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bibliotheque (Livre*)>
+<!ELEMENT Livre (Nom, Auteur+, Prix, Genre*, Pages, Resume?, Edition)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Auteur (#PCDATA)>
+<!ELEMENT Prix (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Pages (#PCDATA)>
+<!ELEMENT Resume (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+
+<!ATTLIST Livre lang CDATA #REQUIRED>
+<!ATTLIST Nom ISBN CDATA #REQUIRED>
+<!ATTLIST Prix devise CDATA #REQUIRED>
+<!ATTLIST Edition originale CDATA #IMPLIED>

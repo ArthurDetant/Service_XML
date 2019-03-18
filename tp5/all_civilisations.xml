@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?><civilisations>    <civilisation Spécialisation="militaire">
+        <Nom>Franc</Nom>
+        <TechTree>
+            <Tech>Metier a tisser</Tech>
+            <Tech>Ecuyer</Tech>
+            <Tech>Pistage</Tech>
+            <Tech>Harnais de cheval</Tech>
+            <Tech>Hache a double tranchant</Tech>
+            <Tech>Labourage lourd</Tech>
+            <Tech>Alternance des cultures</Tech>
+            <Tech>Mine d'or</Tech>
+            <Tech>Carriere</Tech>
+            <Tech>Brouette</Tech>
+            <Tech>Charrette a bras</Tech>
+            <Tech>Patrouille de ville</Tech>
+            <Tech>Frappe de monnaie</Tech>
+            <Tech>Cartographie</Tech>
+            <Tech>Scie a archer</Tech>
+            <Tech>Puit de forage d'or</Tech>
+            <Tech>Maconnerie</Tech>
+            <Tech>Projectile en feu</Tech>
+            <Tech>Architecture</Tech>
+            <Tech>Expert de siege</Tech>
+            <Tech>Meurtriere</Tech>
+            <Tech>Espion</Tech>
+            <Tech>Conscription</Tech>
+            <Tech>Palissades</Tech>
+            <Tech>Grue a poulie</Tech>
+            <Tech>Chimie</Tech>
+            <Tech>Saintete</Tech>
+            <Tech>Banques</Tech>
+            <Tech>Ferveur</Tech>
+            <Tech>Foi</Tech>
+            <Tech>Illumination</Tech>
+            <Tech>Imprimerie</Tech>
+            <Tech>Forge</Tech>
+            <Tech>Fonderie</Tech>
+            <Tech>Haut fourneau</Tech>
+            <Tech>Barde ecaille</Tech>
+            <Tech>Barde chaine</Tech>
+            <Tech>Barde plaque</Tech>
+            <Tech>Empenage</Tech>
+            <Tech>Fleche a poincon</Tech>
+            <Tech>Armure d archer matelasse</Tech>
+            <Tech>Armure d archer en cuir</Tech>
+            <Tech>Armure d archer chaine</Tech>
+            <Tech>Cotte de maille ecaille</Tech>
+            <Tech>Cotte de maille chaine</Tech>
+            <Tech>Cotte de maille plaque</Tech>
+        </TechTree>
+        <Unites>
+            <Unite Nom="Paysan">
+                <Cout  Nourriture="50"/>
+                <type>Civil</type>
+                <StatsCAC pv="25" atk="3" Vatk="2"/>
+                <Batiment_Necessaire>Forum</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Milicien">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="40" atk="4" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Homme d arme">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="40" atk="4" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Lancier">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="40" atk="4" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Piquier">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="40" atk="4" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Epee a deux main">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="70" atk="13" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Champion">
+                <Cout  Nourriture="60" Or="20"/>
+                <type>Infanterie</type>
+                <StatsCAC pv="70" atk="13" Vatk="2"/>
+                <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Eclaireur">
+                <Cout  Nourriture="60" Or="75"/>
+                <type>Cavalerie</type>
+                <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Cavalier">
+                <Cout  Nourriture="60" Or="75"/>
+                <type>Cavalerie</type>
+                <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Chevalier">
+                <Cout  Nourriture="60" Or="75"/>
+                <type>Cavalerie</type>
+                <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Paladin">
+                <Cout  Nourriture="60" Or="75"/>
+                <type>Cavalerie</type>
+                <StatsCAC pv="160" atk="14" Vatk="1.9"/>
+                <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Archer">
+                <Cout Bois="25" Or="45"/>
+                <type>Archer</type>
+                <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="tireur a l'arc">
+                <Cout Bois="25" Or="45"/>
+                <type>Archer</type>
+                <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Tirailleur">
+                <Cout Bois="25" Or="45"/>
+                <type>Archer</type>
+                <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Tirailleur lourd">
+                <Cout Bois="25" Or="45"/>
+                <type>Archer</type>
+                <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Archer de cavalerie">
+                <Cout Bois="40" Or="70"/>
+                <type>Archer</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Trebuchet">
+                <Cout Bois="40" Or="70"/>
+                <type>Siege</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Belier">
+                <Cout Bois="40" Or="70"/>
+                <type>Siege</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Onagre">
+                <Cout Bois="40" Or="70"/>
+                <type>Siege</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Scorpion">
+                <Cout Bois="40" Or="70"/>
+                <type>Siege</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Bombarde">
+                <Cout Bois="225" Or="225"/>
+                <type>Poudre</type>
+                <StatsDist pv="80" atk="40" porte="12" Vatk="6.5"/>
+                <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Cannonier a main">
+                <Cout Nourriture="60" Or="50"/>
+                <type>Poudre</type>
+                <StatsDist pv="35" atk="17" porte="7" Vatk="3.45"/>
+                <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Moine">
+                <Cout Or="100"/>
+                <type>Religieu</type>
+                <StatsDist pv="30" atk="0" porte="9" Vatk="5.5"/>
+                <Batiment_Necessaire>Monastere</Batiment_Necessaire>
+            </Unite>
+            <Unite Nom="Charette de commerce">
+                <Cout Bois="40" Or="70"/>
+                <type>Civil</type>
+                <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                <Batiment_Necessaire>Marche</Batiment_Necessaire>
+            </Unite>
+        </Unites>       
+        <Batiments>
+            <Batiment Nom="Camp de bucheron">
+                <Cout  Bois="100" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Camp de mineur">
+                <Cout  Bois="100" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Forum">
+                <Cout  Bois="275" Pierre="100" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Moulin">
+                <Cout  Bois="100" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Universite">
+                <Cout  Bois="100" />
+                <Age>Chateau</Age>
+            </Batiment>
+            <Batiment Nom="Forgeron">
+                <Cout  Bois="150" />
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Atelier de siege">
+                <Cout  Bois="200" />
+                <Age>Chateau</Age>
+            </Batiment>
+            <Batiment Nom="Palissade">
+                <Cout  Bois="2" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Poste avance">
+                <Cout  Bois="25" Pierre="10" />
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Habitation">
+                <Cout Bois="30"/> 
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Porte">
+                <Cout Pierre="30"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Tour de guet">
+                <Cout Bois="25" Pierre="125"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Ecurie">
+                <Cout Bois="175"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Camp de tir a l'arc">
+                <Cout Bois="175"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Monastere">
+                <Cout Bois="175"/> 
+                <Age>Chateau</Age>
+            </Batiment>
+            <Batiment Nom="Port">
+                <Cout Bois="150"/> 
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Merveille">
+                <Cout Bois="1000" Pierre="1000" Or="1000" /> 
+                <Age>Imperial</Age>
+            </Batiment>
+            <Batiment Nom="Ferme">
+                <Cout Bois="60"/> 
+                <Age>Sombre</Age>
+            </Batiment>
+            <Batiment Nom="Chateau">
+                <Cout Pierre="450"/>
+                <Age>Chateau</Age>
+            </Batiment>
+            <Batiment Nom="Marche">
+                <Cout Bois="175"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+            <Batiment Nom="Mur">
+                <Cout Mur="5"/> 
+                <Age>Feodal</Age>
+            </Batiment>
+        </Batiments>
+        </civilisation>
+
+        <civilisation Spécialisation="economique">
+            <Nom>Perse</Nom>
+            <TechTree>
+                <Tech>Metier a tisser</Tech>
+                <Tech>Ecuyer</Tech>
+                <Tech>Pistage</Tech>
+                <Tech>Harnais de cheval</Tech>
+                <Tech>Hache a double tranchant</Tech>
+                <Tech>Labourage lourd</Tech>
+                <Tech>Mine d'or</Tech>
+                <Tech>Carriere</Tech>
+                <Tech>Brouette</Tech>
+                <Tech>Charrette a bras</Tech>
+                <Tech>Patrouille de ville</Tech>
+                <Tech>Frappe de monnaie</Tech>
+                <Tech>Cartographie</Tech>
+                <Tech>Scie a archer</Tech>
+                <Tech>Puit de forage d'or</Tech>
+                <Tech>Puit de forage de pierre</Tech>
+                <Tech>Maconnerie</Tech>
+                <Tech>Projectile en feu</Tech>
+                <Tech>Architecture</Tech>
+                <Tech>Meurtriere</Tech>
+                <Tech>Espion</Tech>
+                <Tech>Conscription</Tech>
+                <Tech>Palissades</Tech>
+                <Tech>Guildes</Tech>
+                <Tech>Banques</Tech>
+                <Tech>Bague de pouce</Tech>
+                <Tech>Tactique Parthes</Tech>
+                <Tech>Scie a deux bras</Tech>
+                <Tech>Chimie</Tech>
+                <Tech>Saintete</Tech>
+                <Tech>Ferveur</Tech>
+                <Tech>Foi</Tech>
+                <Tech>Illumination</Tech>
+                <Tech>Imprimerie</Tech>
+                <Tech>Forge</Tech>
+                <Tech>Fonderie</Tech>
+                <Tech>Haut fourneau</Tech>
+                <Tech>Barde ecaille</Tech>
+                <Tech>Barde chaine</Tech>
+                <Tech>Barde plaque</Tech>
+                <Tech>Empenage</Tech>
+                <Tech>Fleche a poincon</Tech>
+                <Tech>Brassard</Tech>
+                <Tech>Armure d archer matelasse</Tech>
+                <Tech>Armure d archer en cuir</Tech>
+                <Tech>Armure d archer chaine</Tech>
+                <Tech>Cotte de maille ecaille</Tech>
+                <Tech>Cotte de maille chaine</Tech>
+                <Tech>Cotte de maille plaque</Tech>
+            </TechTree>
+            <Unites>
+
+                <Unite Nom="Paysan">
+                    <Cout  Nourriture="50"/>
+                    <type>Civil</type>
+                    <StatsCAC pv="25" atk="3" Vatk="2"/>
+                    <Batiment_Necessaire>Forum</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Milicien">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Homme d arme">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Lancier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Piquier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Eclaireur">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chameau">
+                    <Cout  Nourriture="55" Or="60"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="100" atk="5" Vatk="2.0"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chameau lourd">
+                    <Cout  Nourriture="55" Or="60"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="7" Vatk="2.0"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cavalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chevalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Paladin">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="160" atk="14" Vatk="1.9"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="tireur a l'arc">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur">
+                    <Cout Bois="25" Nourriture="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur lourd">
+                    <Cout Bois="25" Nourriture="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+
+                <Unite Nom="Trebuchet">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Onagre">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Scorpion">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Bombarde">
+                    <Cout Bois="225" Or="225"/>
+                    <type>Poudre</type>
+                    <StatsDist pv="80" atk="40" porte="12" Vatk="6.5"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cannonier a main">
+                    <Cout Nourriture="60" Or="50"/>
+                    <type>Poudre</type>
+                    <StatsDist pv="35" atk="17" porte="7" Vatk="3.45"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+               <Unite Nom="Moine">
+                    <Cout Or="100"/>
+                    <type>Religieu</type>
+                    <StatsDist pv="30" atk="0" porte="9" Vatk="5.5"/>
+                    <Batiment_Necessaire>Monastere</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Charette de commerce">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Civil</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Marche</Batiment_Necessaire>
+                </Unite>
+            </Unites>         
+            <Batiments>
+                <Batiment Nom="Camp de bucheron">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Camp de mineur">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Forum">
+                    <Cout  Bois="275" Pierre="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Moulin">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Universite">
+                    <Cout  Bois="100" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Forgeron">
+                    <Cout  Bois="150" />
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Atelier de siege">
+                    <Cout  Bois="200" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Palissade">
+                    <Cout  Bois="2" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Poste avance">
+                    <Cout  Bois="25" Pierre="10" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Habitation">
+                    <Cout Bois="30"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Porte">
+                    <Cout Pierre="30"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Tour de guet">
+                    <Cout Bois="25" Pierre="125"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Ecurie">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Camp de tir a l'arc">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Monastere">
+                    <Cout Bois="175"/> 
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Port">
+                    <Cout Bois="150"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Merveille">
+                    <Cout Bois="1000" Pierre="1000" Or="1000" /> 
+                    <Age>Imperial</Age>
+                </Batiment>
+                <Batiment Nom="Ferme">
+                    <Cout Bois="60"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Chateau">
+                    <Cout Pierre="650"/>
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Marche">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Mur">
+                    <Cout Mur="5"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+            </Batiments>        
+        </civilisation>
+
+        <civilisation Spécialisation="economique">
+            <Nom>Britaniques</Nom>
+            <TechTree>
+                <Tech>Metier a tisser</Tech>
+                <Tech>Ecuyer</Tech>
+                <Tech>Pistage</Tech>
+                <Tech>Harnais de cheval</Tech>
+                <Tech>Hache a double tranchant</Tech>
+                <Tech>Labourage lourd</Tech>
+                <Tech>Mine d'or</Tech>
+                <Tech>Carriere</Tech>
+                <Tech>Brouette</Tech>
+                <Tech>Charrette a bras</Tech>
+                <Tech>Patrouille de ville</Tech>
+                <Tech>Frappe de monnaie</Tech>
+                <Tech>Cartographie</Tech>
+                <Tech>Scie a archer</Tech>
+                <Tech>Puit de forage d'or</Tech>
+                <Tech>Maconnerie</Tech>
+                <Tech>Projectile en feu</Tech>
+                <Tech>Architecture</Tech>
+                <Tech>Expert de siege</Tech>
+                <Tech>Meurtriere</Tech>
+                <Tech>Espion</Tech>
+                <Tech>Conscription</Tech>
+                <Tech>Palissades</Tech>
+                <Tech>Guildes</Tech>
+                <Tech>Bague de pouce</Tech>
+                <Tech>Tactique Parthes</Tech>
+                <Tech>Grue a poulie</Tech>
+                <Tech>Scie a deux bras</Tech>
+                <Tech>Chimie</Tech>
+                <Tech>Ferveur</Tech>
+                <Tech>Foi</Tech>
+                <Tech>Imprimerie</Tech>
+                <Tech>Forge</Tech>
+                <Tech>Fonderie</Tech>
+                <Tech>Haut fourneau</Tech>
+                <Tech>Barde ecaille</Tech>
+                <Tech>Barde chaine</Tech>
+                <Tech>Barde plaque</Tech>
+                <Tech>Empenage</Tech>
+                <Tech>Fleche a poincon</Tech>
+                <Tech>Brassard</Tech>
+                <Tech>Armure d archer matelasse</Tech>
+                <Tech>Armure d archer en cuir</Tech>
+                <Tech>Armure d archer chaine</Tech>
+                <Tech>Cotte de maille ecaille</Tech>
+                <Tech>Cotte de maille chaine</Tech>
+                <Tech>Cotte de maille plaque</Tech>
+                <Tech>Elevage</Tech>
+            </TechTree>
+            <Unites>
+                <Unite Nom="Paysan">
+                    <Cout  Nourriture="50"/>
+                    <type>Civil</type>
+                    <StatsCAC pv="25" atk="3" Vatk="2"/>
+                    <Batiment_Necessaire>Forum</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Milicien">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Homme d arme">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Lancier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Piquier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Epee a deux main">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Champion">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Eclaireur">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cavalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chevalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="tireur a l'arc">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Arbaletrier">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur lourd">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Artificier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Trebuchet">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Onagre">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Scorpion">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Scorpion lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Moine">
+                    <Cout Or="100"/>
+                    <type>Religieu</type>
+                    <StatsDist pv="30" atk="0" porte="9" Vatk="5.5"/>
+                    <Batiment_Necessaire>Monastere</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Charette de commerce">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Civil</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Marche</Batiment_Necessaire>
+                </Unite>
+            </Unites>
+            <Batiments>
+                <Batiment Nom="Camp de bucheron">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Camp de mineur">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Forum">
+                    <Cout  Bois="275" Pierre="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Moulin">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Universite">
+                    <Cout  Bois="100" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Forgeron">
+                    <Cout  Bois="150" />
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Atelier de siege">
+                    <Cout  Bois="200" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Palissade">
+                    <Cout  Bois="2" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Poste avance">
+                    <Cout  Bois="25" Pierre="10" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Habitation">
+                    <Cout Bois="30"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Porte">
+                    <Cout Pierre="30"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Tour de guet">
+                    <Cout Bois="25" Pierre="125"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Ecurie">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Camp de tir a l'arc">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Monastere">
+                    <Cout Bois="175"/> 
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Port">
+                    <Cout Bois="150"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Merveille">
+                    <Cout Bois="1000" Pierre="1000" Or="1000" /> 
+                    <Age>Imperial</Age>
+                </Batiment>
+                <Batiment Nom="Ferme">
+                    <Cout Bois="60"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Chateau">
+                    <Cout Pierre="650"/>
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Marche">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Mur">
+                    <Cout Mur="5"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+            </Batiments>
+        </civilisation>
+
+        <civilisation Spécialisation="defensive">
+            <Nom>Byzantin</Nom>
+            <TechTree>
+                <Tech>Metier a tisser</Tech>
+                <Tech>Ecuyer</Tech>
+                <Tech>Pistage</Tech>
+                <Tech>Alternance des cultures</Tech>
+                <Tech>Harnais de cheval</Tech>
+                <Tech>Hache a double tranchant</Tech>
+                <Tech>Labourage lourd</Tech>
+                <Tech>Mine d'or</Tech>
+                <Tech>Carriere</Tech>
+                <Tech>Brouette</Tech>
+                <Tech>Charrette a bras</Tech>
+                <Tech>Patrouille de ville</Tech>
+                <Tech>Frappe de monnaie</Tech>
+                <Tech>Banques</Tech>
+                <Tech>Cartographie</Tech>
+                <Tech>Scie a archer</Tech>
+                <Tech>Puit de forage d'or</Tech>
+                <Tech>Puit de forage de pierre</Tech>
+                <Tech>Meurtriere</Tech>
+                <Tech>Espion</Tech>
+                <Tech>Conscription</Tech>
+                <Tech>Palissades</Tech>
+                <Tech>Guildes</Tech>
+                <Tech>Bague de pouce</Tech>
+                <Tech>Tactique Parthes</Tech>
+                <Tech>Scie a deux bras</Tech>
+                <Tech>Chimie</Tech>
+                <Tech>Ferveur</Tech>
+                <Tech>Foi</Tech>
+                <Tech>Saintete</Tech>
+                <Tech>Forge</Tech>
+                <Tech>Fonderie</Tech>
+                <Tech>Barde ecaille</Tech>
+                <Tech>Barde chaine</Tech>
+                <Tech>Barde plaque</Tech>
+                <Tech>Empenage</Tech>
+                <Tech>Fleche a poincon</Tech>
+                <Tech>Brassard</Tech>
+                <Tech>Armure d archer matelasse</Tech>
+                <Tech>Armure d archer en cuir</Tech>
+                <Tech>Armure d archer chaine</Tech>
+                <Tech>Cotte de maille ecaille</Tech>
+                <Tech>Cotte de maille chaine</Tech>
+                <Tech>Cotte de maille plaque</Tech>
+                <Tech>Elevage</Tech>
+            </TechTree>
+            <Unites>
+                <Unite Nom="Paysan">
+                    <Cout  Nourriture="50"/>
+                    <type>Civil</type>
+                    <StatsCAC pv="25" atk="3" Vatk="2"/>
+                    <Batiment_Necessaire>Forum</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Milicien">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Homme d arme">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Lancier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Piquier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Epee a deux main">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Champion">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Eclaireur">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cavalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chevalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Paladin">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="160" atk="14" Vatk="1.9"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chameau">
+                    <Cout  Nourriture="55" Or="60"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="100" atk="5" Vatk="2.0"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chameau lourd">
+                    <Cout  Nourriture="55" Or="60"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="7" Vatk="2.0"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Bombarde">
+                    <Cout Bois="225" Or="225"/>
+                    <type>Poudre</type>
+                    <StatsDist pv="80" atk="40" porte="12" Vatk="6.5"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cannonier a main">
+                    <Cout Nourriture="60" Or="50"/>
+                    <type>Poudre</type>
+                    <StatsDist pv="35" atk="17" porte="7" Vatk="3.45"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+
+                <Unite Nom="Archer">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="tireur a l'arc">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Arbaletrier">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur lourd">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Trebuchet">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Onagre">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Scorpion">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Moine">
+                    <Cout Or="100"/>
+                    <type>Religieu</type>
+                    <StatsDist pv="30" atk="0" porte="9" Vatk="5.5"/>
+                    <Batiment_Necessaire>Monastere</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Charette de commerce">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Civil</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Marche</Batiment_Necessaire>
+                </Unite>
+            </Unites>
+            <Batiments>
+                <Batiment Nom="Camp de bucheron">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Camp de mineur">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Forum">
+                    <Cout  Bois="275" Pierre="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Moulin">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Universite">
+                    <Cout  Bois="100" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Forgeron">
+                    <Cout  Bois="150" />
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Atelier de siege">
+                    <Cout  Bois="200" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Palissade">
+                    <Cout  Bois="2" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Poste avance">
+                    <Cout  Bois="25" Pierre="10" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Habitation">
+                    <Cout Bois="30"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Porte">
+                    <Cout Pierre="30"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Tour de guet">
+                    <Cout Bois="25" Pierre="125"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Ecurie">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Camp de tir a l'arc">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Monastere">
+                    <Cout Bois="175"/> 
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Port">
+                    <Cout Bois="150"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Merveille">
+                    <Cout Bois="1000" Pierre="1000" Or="1000" /> 
+                    <Age>Imperial</Age>
+                </Batiment>
+                <Batiment Nom="Ferme">
+                    <Cout Bois="60"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Chateau">
+                    <Cout Pierre="650"/>
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Marche">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Mur">
+                    <Cout Mur="5"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+            </Batiments>
+        </civilisation>
+
+         <civilisation Spécialisation="technologique">
+            <Nom>Chinois</Nom>
+            <TechTree>
+                <Tech>Metier a tisser</Tech>
+                <Tech>Pistage</Tech>
+                <Tech>Harnais de cheval</Tech>
+                <Tech>Hache a double tranchant</Tech>
+                <Tech>Labourage lourd</Tech>
+                <Tech>Mine d'or</Tech>
+                <Tech>Carriere</Tech>
+                <Tech>Brouette</Tech>
+                <Tech>Charrette a bras</Tech>
+                <Tech>Patrouille de ville</Tech>
+                <Tech>Frappe de monnaie</Tech>
+                <Tech>Banques</Tech>
+                <Tech>Cartographie</Tech>
+                <Tech>Scie a archer</Tech>
+                <Tech>Puit de forage d'or</Tech>
+                <Tech>Puit de forage de pierre</Tech>
+                <Tech>Meurtriere</Tech>
+                <Tech>Espion</Tech>
+                <Tech>Conscription</Tech>
+                <Tech>Bague de pouce</Tech>
+                <Tech>Tactique Parthes</Tech>
+                <Tech>Scie a deux bras</Tech>
+                <Tech>Chimie</Tech>
+                <Tech>Architecture</Tech>
+                <Tech>Maconnerie</Tech>
+                <Tech>Grue a poulie</Tech>
+                <Tech>Expert de siege</Tech>
+                <Tech>Ferveur</Tech>
+                <Tech>Foi</Tech>
+                <Tech>Saintete</Tech>
+                <Tech>Illumination</Tech>
+                <Tech>Imprimerie</Tech>
+                <Tech>Forge</Tech>
+                <Tech>Fonderie</Tech>
+                <Tech>Haut fourneau</Tech>
+                <Tech>Barde ecaille</Tech>
+                <Tech>Barde chaine</Tech>
+                <Tech>Barde plaque</Tech>
+                <Tech>Empenage</Tech>
+                <Tech>Fleche a poincon</Tech>
+                <Tech>Armure d archer matelasse</Tech>
+                <Tech>Armure d archer en cuir</Tech>
+                <Tech>Cotte de maille ecaille</Tech>
+                <Tech>Cotte de maille chaine</Tech>
+                <Tech>Cotte de maille plaque</Tech>
+                <Tech>Elevage</Tech>
+            </TechTree>
+            <Unites>
+                <Unite Nom="Paysan">
+                    <Cout  Nourriture="50"/>
+                    <type>Civil</type>
+                    <StatsCAC pv="25" atk="3" Vatk="2"/>
+                    <Batiment_Necessaire>Forum</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Milicien">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Homme d arme">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Lancier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Piquier">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="40" atk="4" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Epee a deux main">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Champion">
+                    <Cout  Nourriture="60" Or="20"/>
+                    <type>Infanterie</type>
+                    <StatsCAC pv="70" atk="13" Vatk="2"/>
+                    <Batiment_Necessaire>Caserne</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Eclaireur">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cavalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Chevalier">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="120" atk="12" Vatk="1.8"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Paladin">
+                    <Cout  Nourriture="60" Or="75"/>
+                    <type>Cavalerie</type>
+                    <StatsCAC pv="160" atk="14" Vatk="1.9"/>
+                    <Batiment_Necessaire>Ecurie</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Cannonier a main">
+                    <Cout Nourriture="60" Or="50"/>
+                    <type>Poudre</type>
+                    <StatsDist pv="35" atk="17" porte="7" Vatk="3.45"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+
+                <Unite Nom="Archer">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="tireur a l'arc">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Arbaletrier">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Tirailleur lourd">
+                    <Cout Bois="25" Or="45"/>
+                    <type>Archer</type>
+                    <StatsDist pv="30" atk="4" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Archer de cavalerie lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Archer</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Champ de tir</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Trebuchet">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Belier lourd">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Onagre">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Scorpion">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Atelier de siege</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Moine">
+                    <Cout Or="100"/>
+                    <type>Religieu</type>
+                    <StatsDist pv="30" atk="0" porte="9" Vatk="5.5"/>
+                    <Batiment_Necessaire>Monastere</Batiment_Necessaire>
+                </Unite>
+               <Unite Nom="Charette de commerce">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Civil</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Marche</Batiment_Necessaire>
+                </Unite>
+                <Unite Nom="Artificier">
+                    <Cout Bois="40" Or="70"/>
+                    <type>Siege</type>
+                    <StatsDist pv="60" atk="7" porte="4" Vatk="2"/>
+                    <Batiment_Necessaire>Chateau</Batiment_Necessaire>
+                </Unite>
+
+            </Unites>
+            <Batiments>
+                <Batiment Nom="Camp de bucheron">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Camp de mineur">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Forum">
+                    <Cout  Bois="275" Pierre="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Moulin">
+                    <Cout  Bois="100" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Universite">
+                    <Cout  Bois="100" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Forgeron">
+                    <Cout  Bois="150" />
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Atelier de siege">
+                    <Cout  Bois="200" />
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Palissade">
+                    <Cout  Bois="2" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Poste avance">
+                    <Cout  Bois="25" Pierre="10" />
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Habitation">
+                    <Cout Bois="30"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Porte">
+                    <Cout Pierre="30"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Tour de guet">
+                    <Cout Bois="25" Pierre="125"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Ecurie">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Camp de tir a l'arc">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Monastere">
+                    <Cout Bois="175"/> 
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Port">
+                    <Cout Bois="150"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Merveille">
+                    <Cout Bois="1000" Pierre="1000" Or="1000" /> 
+                    <Age>Imperial</Age>
+                </Batiment>
+                <Batiment Nom="Ferme">
+                    <Cout Bois="60"/> 
+                    <Age>Sombre</Age>
+                </Batiment>
+                <Batiment Nom="Chateau">
+                    <Cout Pierre="650"/>
+                    <Age>Chateau</Age>
+                </Batiment>
+                <Batiment Nom="Marche">
+                    <Cout Bois="175"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+                <Batiment Nom="Mur">
+                    <Cout Mur="5"/> 
+                    <Age>Feodal</Age>
+                </Batiment>
+            </Batiments>
+        </civilisation>
+    </civilisations>

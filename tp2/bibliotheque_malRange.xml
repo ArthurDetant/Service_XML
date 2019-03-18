@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM "Bibliotheque.dtd">
+<bibliotheque>
+	<Livre lang="FR">
+		<Nom ISBN="9783641173081">Le Seigneur des Anneaux</Nom>
+		<Auteur>J.R.R Tolkien</Auteur>
+		<Prix devise="dollard">19</Prix>
+		<Genre>Fantasy</Genre>
+		<Genre>Roman</Genre>
+		<Pages>500</Pages>
+		<Edition originale="oui">1954</Edition>
+	</Livre>
+</bibliotheque>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliotheque xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibliotheque.xsd">
+	
+	<Livre ISBN="9783641173081">
+		<Titre>Dune</Titre>
+		<Auteur>
+			<nom>Herbert</nom>
+			<prenom>Franck</prenom>
+		</Auteur>
+		<Langue>FR</Langue>
+		<Langue>DE</Langue>
+		<Langue>EN</Langue>
+		<Langue>IT</Langue>
+		<Prix devise="$">42.00</Prix>
+		<Genre>Sf</Genre>
+		<Genre>Aventure</Genre>
+		<Pages>412</Pages>
+		<Edition originale="true">1965</Edition>
+		<Format support="papier"/>
+	</Livre>
+	
+	<Livre>
+		<Nom ISBN="9782207249116">Cycle de Fondation</Nom>
+		<Auteur>
+			<Nom>Asimov</Nom>
+			<Prenom>Isaac</Prenom>
+		</Auteur>
+		<Langue>FR</Langue>        
+		<Prix devise="€">13</Prix>
+		<Genre>Sf</Genre>
+		<Genre>Aventure</Genre>
+		<Pages>256</Pages>
+		<Edition originale="false">1957</Edition>
+		<Format/>
+		<Resume>
+			22 000 ans environ dans le futur, soit 13 à 15 millénaires après la perte de la Terre dont les Hommes ont oublié l’emplacement depuis qu'elle est devenue inhabitable, un Empire galactique s’est formé qui englobe toute la Voie lactée et regroupe 25 millions de mondes habités. Sa capitale, Trantor, est une planète entièrement recouverte de dômes en métal, la plus proche du centre de la galaxie ; seul le palais impérial est à l'air libre.
+			Au cours du 13e millénaire de l’ère impériale, un homme, Hari Seldon, prédit au moyen d’une science statistique dont il est le concepteur — la psychohistoire — la chute de cet empire, suivie de 30 000 ans de barbarie qui précéderont la naissance d'un autre Empire. Pour réduire cette période de barbarie à 1 000 ans, il suggère la création d’une Fondation dont le rôle sera de rassembler le savoir de toute l'humanité dans une Encyclopédie.
+			L’Empire l'autorise à la créer sur une petite planète à l’extrémité de la Galaxie, Terminus. En privé, Seldon évoque, sans en dire davantage, une Seconde Fondation qui épaulerait secrètement la première et qui serait située à « l’autre bout de la galaxie », à Star's End, « là où finissent les étoiles ».
+		</Resume>
+	</Livre>
+	
+</bibliotheque>
+

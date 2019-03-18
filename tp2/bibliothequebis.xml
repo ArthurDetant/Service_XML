@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM "Bibliotheque.dtd">
+<bibliotheque>
+	<Livre lang="US">
+		<Nom ISBN="9783641173081">Dune</Nom>
+		<Auteur>F.Herbert</Auteur>
+		<Prix devise="dollard">19</Prix>
+		<Genre>Sf</Genre>
+		<Genre>Aventure</Genre>
+		<Pages>412</Pages>
+		<Edition originale="OUI">1965</Edition>
+	</Livre>
+	<Livre lang="FR">
+		<Nom ISBN="9782207249116">Cycle de Fondation</Nom>
+		<Auteur>Isaac Asimov</Auteur>
+		<Prix devise="euro">13.37</Prix>
+		<Genre>Sf</Genre>
+		<Genre>Aventure</Genre>
+		<Pages>256</Pages>
+		<Resume>
+			22 000 ans environ dans le futur, soit 13 à 15 millénaires après la perte de la Terre dont les Hommes ont oublié l’emplacement depuis qu'elle est devenue inhabitable, un Empire galactique s’est formé qui englobe toute la Voie lactée et regroupe 25 millions de mondes habités. Sa capitale, Trantor, est une planète entièrement recouverte de dômes en métal, la plus proche du centre de la galaxie ; seul le palais impérial est à l'air libre.
+			Au cours du 13e millénaire de l’ère impériale, un homme, Hari Seldon, prédit au moyen d’une science statistique dont il est le concepteur — la psychohistoire — la chute de cet empire, suivie de 30 000 ans de barbarie qui précéderont la naissance d'un autre Empire. Pour réduire cette période de barbarie à 1 000 ans, il suggère la création d’une Fondation dont le rôle sera de rassembler le savoir de toute l'humanité dans une Encyclopédie.
+			L’Empire l'autorise à la créer sur une petite planète à l’extrémité de la Galaxie, Terminus. En privé, Seldon évoque, sans en dire davantage, une Seconde Fondation qui épaulerait secrètement la première et qui serait située à « l’autre bout de la galaxie », à Star's End, « là où finissent les étoiles ». 
+		</Resume>
+		<Edition originale="NON">1957</Edition>
+	</Livre>
+</bibliotheque>

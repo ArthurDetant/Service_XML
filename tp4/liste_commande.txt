@@ -1,0 +1,18 @@
+1) xmllint cd_catalog.xml --noout --xpath "count(/CATALOG/CD)"
+
+2) xmllint cd_catalog.xml --noout --xpath "(/CATALOG/CD[2]/TITLE)"
+
+3) xmllint cd_catalog.xml --noout --xpath "(//CD[ARTIST='Joe Cocker']/TITLE)"
+
+4) xmllint cd_catalog.xml --noout --xpath "(//CD[ARTIST='Bob Dylan']/PRICE)"
+
+5) xmllint cd_catalog.xml --noout --xpath "sum(//CD/PRICE)"
+
+6) xmllint cd_catalog.xml --noout --xpath "(//CD[YEAR>=1988]/TITLE)[last()]"
+
+7) xmllint cd_catalog.xml --noout --xpath "//CD[TITLE='Black angel']/preceding-sibling::CD[1]/COMPANY"
+
+8) xmllint cd_catalog.xml --noout --xpath "count(/CATALOG/CD[COMPANY!='Polydor'])"
+
+9) xmllint cd_catalog.xml --noout --xpath "count(/CATALOG/CD[COMPANY!='Polydor' and YEAR>1995])"
+
